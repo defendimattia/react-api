@@ -20,9 +20,7 @@ function App() {
     <>
       <h1>Lista attrici</h1>
       <div className="container">
-        <ul >
-          {actressList.map(actress => <Card key={actress.id} />)}
-        </ul>
+          {actressList.map(actress => <Card key={actress.id} element={actress}/>)}
       </div>
 
     </>
