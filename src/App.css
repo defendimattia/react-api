@@ -1,0 +1,21 @@
+.container {
+    width: 1400px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.card {
+    width: 200px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.card-img {
+    object-fit: cover;
+}
+
+
