@@ -1,10 +1,16 @@
 .container {
-    width: 1400px;
+    width: calc((200px + 2px) * 7);
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+h1 {
+    text-align: center;
 }
 
 ul {
-    display: flex;
-    flex-wrap: wrap;
     list-style: none;
 }
 
@@ -14,8 +20,7 @@ ul {
     padding: 5px;
 }
 
-.card-img {
-    object-fit: cover;
+.card-img img {
+    object-fit: contain;
+
 }
-
-
